@@ -1,5 +1,5 @@
 header {
-    padding: 32px;
+    padding: 18px;
     margin: 0;
     background-color: dodgerblue;
     color: white;
@@ -13,6 +13,11 @@ header > div {
     display: inline-block;
     float: right;
     padding: 32px;
+    word-spacing: 20px;
+}
+
+header > div > a {
+    color: white;
 }
 
 body {
@@ -25,6 +30,31 @@ body {
     margin: auto;
 }
 
-nav > ul {
-    list-style: none;
+.box {
+    display: inline-flex;
+    flex-direction: column;
 }
+
+.news-pic {
+    height: 200px;
+    width: 300px;
+}
+
+.user-comments {
+    border-top: 1px solid grey;
+}
+
+.profile-pic {
+    padding: 6px 0px;
+    height:100px;
+    width: 100px;
+}
+
+footer {
+    margin: 0;
+    background-color: dodgerblue;
+    padding: 1px;
+    color: white;
+    text-align: center;
+}
+

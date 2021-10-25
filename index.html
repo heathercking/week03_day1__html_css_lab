@@ -31,17 +31,17 @@
     </header>
     <main id="main">
         <aside>
-            <section>
+            <section class="login">
                 <h2>Login</h2>
                 <form>
                     <label for="email">Email:</label><br>
-                    <input type="text" id="email" name="email"><br>
+                    <input type="text" id="email" name="email" style="margin: 2px 0px 8px 0px"><br>
                     <label for="password">Password:</label><br>
-                    <input type="text" id="password" name="password"><br>
-                    <input type="submit" value="Submit">
+                    <input type="text" id="password" name="password" style="margin: 2px 0px"><br>
+                    <input type="submit" value="Submit" style="margin: 6px 0px">
                 </form>
             </section>
-            <section>
+            <section class="categories">
                 <h2>Categories</h2> 
                 <nav>
                     <ul>
@@ -61,7 +61,7 @@
                   </nav>
             </section>
         </aside>
-        <section>
+        <hgroup class="box">
             <hgroup>
                 <h2>Latest</h2>
                 <h3>Breaking News</h3>
@@ -69,19 +69,19 @@
             <hgroup>
                 <h4>Story headline 1</h4>
                 <p>This is the first line of the article. The user bla bla bla...</p>
-                <img src="placeholder.png" alt="Our placeholder image">
+                <img class="news-pic" src="Placeholder-Icon-File.png" alt="placeholder image">
             </hgroup>
             <hgroup>
                 <h4>Story headline 2</h4>
                 <p>This is the first line of the article. The user bla bla bla...</p>
-                <img src="placeholder.png" alt="Our placeholder image">
+                <img class="news-pic" src="Placeholder-Icon-File.png" alt="placeholder image">
             </hgroup>
             <hgroup>
                 <h4>Story headline 3</h4>
                 <p>This is the first line of the article. The user bla bla bla...</p>
-                <img src="placeholder.png" alt="Our placeholder image">
+                <img class="news-pic" src="Placeholder-Icon-File.png" alt="placeholder image">
             </hgroup>
-        </section>
+        </hgroup>
         <article>
             <hgroup>
                 <h2>Main Article Headline</h2>
@@ -122,27 +122,27 @@
         <section>
             <h2>Comments</h2>
             <form>
-                <input type="text" id="comments box" name="comments box"><br>
-                <input type="submit" value="Submit"><br>
-                <output name="comments" for="comments box"></output>
+                <input type="text" id="comments box" style="height: 100px; width: 640px"  name="comments box"><br>
+                <input type="submit" value="Submit" style="float: right; margin: 4px 0px 10px 0px"><br>
+                <output name="comments" for="comments box"></output><br>
             </form>
-            <hgroup>
+            <hgroup class="user-comments">
+                <img class="profile-pic" src="profile-placeholder.png" alt="Profile pic">
                 <h4>Username</h4>
                 <h5>Posted: 22/10/2021</h5>
                 <p>This was interesting! Thanks.</p>
-                <img src="placeholder.png" alt="Profile pic">
             </hgroup>
-            <hgroup>
+            <hgroup class="user-comments"> 
+                <img class="profile-pic" src="profile-placeholder.png" alt="Profile pic">
                 <h4>Username</h4>
                 <h5>Posted: 19/10/2021</h5>
                 <p>Super awesome guys! Lolz</p>
-                <img src="placeholder.png" alt="Profile pic">
             </hgroup>
-            <hgroup>
+            <hgroup class="user-comments">
+                <img class="profile-pic" src="profile-placeholder.png" alt="Profile pic">
                 <h4>Username</h4>
                 <h5>Posted: 26/03/2021</h5>
                 <p>This was RUBBISH!!</p>
-                <img src="placeholder.png" alt="Profile pic">
             </hgroup>
         </section>
     </main>
