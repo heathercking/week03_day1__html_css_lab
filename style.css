@@ -1,5 +1,5 @@
 header {
-    padding: 18px;
+    padding: 14px;
     margin: 0;
     background-color: dodgerblue;
     color: white;
@@ -34,9 +34,6 @@ body {
     display: inline-block;
 }
 
-.categories {
-
-}
 
 .latest {
     display: inline-block;
@@ -51,6 +48,7 @@ body {
     height: 400px;
     align-content: space-between;
 }
+
 
 .news-pic {
     height: 130px;
